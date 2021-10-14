@@ -1,4 +1,4 @@
-# task1
+# Coding Test
 
 ## Project setup
 ```
