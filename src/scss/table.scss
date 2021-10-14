@@ -1,0 +1,69 @@
+.case-listing {
+  .primary-class {
+    margin-right: 10px;
+  }
+  .table__th {
+    padding: 12px;
+  }
+  .table__tbody {
+    .table__td {
+      padding-top: 16px;
+
+      a {
+        color: white;
+        margin-top: 0;
+      }
+
+      &:nth-last-child(2) {
+        width: 25%;
+      }
+      &:nth-last-child(3) {
+        width: 10%;
+      }
+      &:nth-last-child(4) {
+        width: 6%;
+      }
+      &:nth-last-child(5) {
+        width: 38%;
+      }
+      &:nth-last-child(6) {
+        width: 6%;
+      }
+    }
+  }
+
+  .open-tag {
+    border: 1px solid;
+    text-align: center;
+    padding: 4px;
+    border-radius: 20px;
+    color: rgb(12, 12, 12);
+    background: lightgray;
+    max-width: 100px;
+  }
+
+  .close-tag {
+    border: 1px solid;
+    text-align: center;
+    padding: 4px;
+    border-radius: 20px;
+    color: rgb(12, 12, 12);
+    background: darkgray;
+    max-width: 100px;
+  }
+}
+
+.hover-style {
+  &:hover {
+    td {
+      background-color: lightgray;
+      cursor: pointer;
+    }
+  }
+}
+
+.case-listing {
+  table {
+    width: 100%;
+  }
+}

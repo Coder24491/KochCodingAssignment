@@ -1,0 +1,55 @@
+.heirarchy-container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  flex-direction: column;
+  padding: 0 300px;
+  text-align: left;
+
+  &--title {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  &--form {
+    margin-bottom: 30px;
+  }
+
+  .heirarchy-form--input {
+    .input-field {
+      height: 56px;
+    }
+  }
+
+  .heirarchy-form--dropdown,
+  .heirarchy-form--input {
+    margin-bottom: 20px;
+  }
+
+  .heirarchy-form--dropdown {
+    .dropdown-select {
+      width: 100%;
+      height: 56px;
+      margin-top: 10px;
+      padding: 10px;
+    }
+  }
+}
+
+.heirarchy-maker-component {
+  max-height: 400px;
+    overflow: auto;
+    .folder {
+      padding-left:20px;
+    
+      .folder-list {
+        list-style: none;
+    
+        .title {
+          text-transform: capitalize;
+          font-weight: bold;
+          padding-left:10px;
+        }
+      }
+    }
+}
